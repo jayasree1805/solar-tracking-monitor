@@ -1,0 +1,47 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# NetBeans / IntelliJ / Eclipse project files
+*.iml
+*.ipr
+*.iws
+.idea/
+*.log
+*.tmp
+*.swp
+target/
+bin/
+out/
+build/
+
+# MATLAB backup and compiled files
+*.asv
+*.mex*
+*.slxc
+*.slx
+*.mdl
+*.mlappinstall
+*.autosave
+.DS_Store
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Logs and temp
+*.log
+*.bak
+*.tmp
+*.old
+
+# Sensitive files (optional - if you store credentials locally)
+*.env
+*.key
+*.pem
+*.p12
+
+# Text/data files (optional if regenerated)
+sensor_data.txt
