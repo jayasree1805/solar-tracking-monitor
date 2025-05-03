@@ -66,14 +66,14 @@ Solar-Tracking-Monitor/
 
 ## 📈 Future Improvements
 
-- ⛔ Remove hardcoded file paths and DB credentials
-- 🔑 Add secure hashed passwords (e.g., bcrypt)
-- 📊 Graph plotting using JFreeChart
-- 🌐 Web-based version using JavaFX or Spring Boot
+- Remove hardcoded file paths and DB credentials
+-  Add secure hashed passwords (e.g., bcrypt)
+-  Graph plotting using JFreeChart
+-  Web-based version using JavaFX or Spring Boot
 
 ## 🧠 Author
 
-👩‍💻 **Jayashree G. Kalkura.**  
+👩‍💻 **Jayasree G. Kalkura.**  
 Electrical and Computer Engineering @ Mar Baselios College of Engineering & Technology
 
 ## 📜 License
