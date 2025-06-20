@@ -76,7 +76,5 @@ Solar-Tracking-Monitor/
 👩‍💻 **Jayasree G. Kalkura.**  
 Electrical and Computer Engineering @ Mar Baselios College of Engineering & Technology
 
-## 📜 License
 
-This project is for academic demonstration purposes. You are free to reuse with credit.
 
