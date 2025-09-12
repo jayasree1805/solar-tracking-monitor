@@ -73,7 +73,7 @@ Solar-Tracking-Monitor/
 
 ## Author
 
-👩‍💻 **Jayasree G. Kalkura.**  
+ **Jayasree G. Kalkura.**  
 Electrical and Computer Engineering @ Mar Baselios College of Engineering & Technology
 
 
