@@ -1,8 +1,8 @@
-# 🌞 Solar Tracking Monitor
+# Solar Tracking Monitor
 
 A cross-platform solar panel monitoring system with real-time data visualization using **Java**, sensor simulation in **MATLAB**, and persistent storage with **MySQL**.
 
-## 📁 Project Structure
+## Project Structure
 
 Solar-Tracking-Monitor/
 ├── README.md
@@ -17,7 +17,7 @@ Solar-Tracking-Monitor/
 ├── data/
   └── solar.sql                 # MySQL CREATE + INSERT statements for tables
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Java (Swing)** – GUI with login, live JTable updates, DB sync.
 - **MATLAB** – Simulates random solar parameters and writes data.
@@ -25,37 +25,37 @@ Solar-Tracking-Monitor/
 - **JDBC** – Connects Java to MySQL.
 - **File I/O** – Shared file bridge between MATLAB and Java.
 
-## 🔐 Login Credentials (Default)
+## Login Credentials (Default)
 
 | Username | Password  |
 |----------|-----------|
 | admin    | admin123  |
 
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### ✅ MySQL Setup
+### MySQL Setup
 
 1. Start your MySQL server.
 2. Run `sql/schema.sql` to create `solartracker` DB, `users`, and `history` tables.
 
-### 🧪 MATLAB Simulation
+### MATLAB Simulation
 
 1. Open `matlab/sensor_simulation.m`.
 2. Ensure `filePath` points to `data/sensor_data.txt`.
 3. Run it to generate 100 entries over time.
 
-### 🖥️ Java App
+### Java App
 
 1. Compile and run `java/STL.java`.
 2. Use login and start monitoring live data.
 3. Switch between current and historical views via toggle.
 
-### 🧾 Java File Watcher (Optional)
+### Java File Watcher (Optional)
 
 1. Run `java/SimulatedSolar.java` to log live sensor changes in CLI format.
 
-## 📌 Features
+## Features
 
 - Login system with MySQL verification
 - Switch between **Current** and **Historical** data
@@ -64,14 +64,14 @@ Solar-Tracking-Monitor/
 - Efficiency % calculated live
 - JTable view (instead of text area)
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Remove hardcoded file paths and DB credentials
 -  Add secure hashed passwords (e.g., bcrypt)
 -  Graph plotting using JFreeChart
 -  Web-based version using JavaFX or Spring Boot
 
-## 🧠 Author
+## Author
 
 👩‍💻 **Jayasree G. Kalkura.**  
 Electrical and Computer Engineering @ Mar Baselios College of Engineering & Technology
